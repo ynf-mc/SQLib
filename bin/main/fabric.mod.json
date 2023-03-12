@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sqlib",
+  "version": "${version}",
+  "name": "SQLib",
+  "description": "A simple SQL wrapper with a focus on Minecraft use cases",
+  "authors": ["MrNavaStar"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sqlib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mrnavastar.sqlib.Sqlib"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "minecraft": [
+      "*"
+    ]
+  }
+}
